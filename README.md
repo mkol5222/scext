@@ -1,0 +1,1 @@
+# scext - hosting SmartConsole extensions
