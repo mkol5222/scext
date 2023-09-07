@@ -77,7 +77,7 @@ function showAccessRulebase(accessPolicy, accessLayer) {
                 "command": "show access-rulebase", "parameters": {
                     "details-level": "full",
                     "uid": accessLayer,
-                    "policy-package": accessPolicy,
+                    "package": accessPolicy,
                 }
             },
             "onShowAccessRulebase");
