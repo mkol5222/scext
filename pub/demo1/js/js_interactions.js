@@ -6,6 +6,7 @@
 function onContext(context) {
     const tree = JSONTree.create(context);
     $("#example").html(tree);
+    console.log("onContext", JSON.stringify(context, null, 2));
 }
 
 function handleClick() {
@@ -18,4 +19,5 @@ function handleClick() {
 function onReadOnlyCommand(val) {
     const tree2 = JSONTree.create(val);
     $("#example2").html(tree2);
+    console.log("onReadOnlyCommand", JSON.stringify(val, null, 2));
 }
