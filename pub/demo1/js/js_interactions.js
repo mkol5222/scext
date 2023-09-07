@@ -10,8 +10,8 @@ function onContext(context) {
 }
 
 function log(txt) {
-    const oldText = $('#log').text() || '';
-    $('#log').text(oldtext + txt);
+    document.getElementById("log").innerText = 
+    document.getElementById("log").innerText + txt;
 }
 
 function handleClick() {
