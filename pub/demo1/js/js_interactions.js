@@ -78,6 +78,7 @@ function showAccessRulebase(accessPolicy, accessLayer) {
                     "details-level": "full",
                     "uid": accessLayer,
                     "package": accessPolicy,
+                    "filter": "DNS"
                 }
             },
             "onShowAccessRulebase");
