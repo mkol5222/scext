@@ -124,6 +124,6 @@
 		}
 	}],
 	"requested-permissions": {
-		"client": ["get-read-only-session"]
+		"client": ["get-read-only-session", "run-read-only-commands"]
 	}
 }
