@@ -10,9 +10,9 @@ function onContext(context) {
 
 function handleClick() {
     alert('hello');
-    // smxProxy.sendRequest("run-readonly-command",
-    //     { "command": "show gateways-and-servers", "parameters": { "details-level": "full" } },
-    //     "onReadOnlyCommand");
+    smxProxy.sendRequest("run-readonly-command",
+        { "command": "show gateways-and-servers", "parameters": { "details-level": "full" } },
+        "onReadOnlyCommand");
 }
 
 function onReadOnlyCommand(val) {
