@@ -3,7 +3,7 @@
 		"name": "Demo1",
 		"product-url": "https://sc1.checkpoint.com/documents/SmartConsole/Extensions/index.html?ref=hello-world",
 		"provider": "extensions@checkpoint.com",
-		"version": "1.0.6"
+		"version": "1.0.7"
 	},
 	"custom-data": {
 		"display-level": "developer",

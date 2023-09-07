@@ -10,7 +10,7 @@ function onContext(context) {
 }
 
 function log(txt) {
-    var oldText = $('#log').text();
+    const oldText = $('#log').text() || '';
     $('#log').text(oldtext + txt);
 }
 
